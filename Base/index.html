@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Datos a Firebase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Enviar Datos a Firebase</h1>
+    <form id="formulario">
+        <div class="input-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="input-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="input-group">
+            <label for="colorFavorito">Color Favorito:</label>
+            <input type="text" id="colorFavorito" name="colorFavorito" required>
+        </div>
+        <div class="input-group">
+            <label for="deporte">Deporte:</label>
+            <input type="text" id="deporte" name="deporte" required>
+        </div>
+        <div class="input-group">
+            <label for="apodo">Apodo:</label>
+            <input type="text" id="apodo" name="apodo" required>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="datos"></div>
+
+
+    <!-- Cargar el archivo app.js como módulo -->
+    <script type="module" src="app.js"></script>
+
+    
+</body>
+</html>
